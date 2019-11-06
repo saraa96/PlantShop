@@ -5,7 +5,7 @@ import React, { Component } from 'react'
 export class Contact extends Component {
 
 	render() {
-		
+		console.log(this.props)
 		return (
 			<div className='bodycontact'>
 				<div className="container">
@@ -37,10 +37,13 @@ export class Contact extends Component {
   </Button>
  
 							<Map  google ={this.props.google}
-						
+								initialCenter={{
+									lat: 21.5085,
+									lng: 39.1741
+								}}
 						style={{width: '100%', height: '100%', position: 'relative'}}
     className={'map'}
-    zoom={14}>
+    zoom={8}>
   <Marker
     name={"Sara's plants"}
 	position={{lat: 21.5085, lng: 39.1741}} />
