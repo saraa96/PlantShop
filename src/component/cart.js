@@ -14,12 +14,10 @@ export default class cart extends Component {
         console.log(this.props.addtocart);
         this.props.addtocart.splice(plantIndex, 1) 
           console.log(`Removing ${select.name} from cart...`)
-          this.setState({remove});
+          this.setState({remove,
+        addtocart:remove});
         }
-       goTopypal = () =>{
-          
-         return
-       }
+   
     render() {
       
         let cart = this.props.addtocart.map(item => 
@@ -47,16 +45,15 @@ export default class cart extends Component {
   )
   
         return (
-        
-    
+           
             <div className ='cartpage'>
             {cart}
-            < div style = {{  border: " 0.9px black solid ", marginTop : "20px"}} > </div>
-            <button style = {{backgroundColor : "#f7f5f0" , float :"right", border:'none' , margin:"0"}}  > <p style = {{fontSize:"20px", fontFamily:"Courier New" }} > Check Out </p> <a href = "https://www.paypal.com/sa/signin "> <img src = 'https://i.ibb.co/QQX15SC/buttons2.png' target="__blank"/> </a></button>
-            
-            </div> 
           
-            
+            < div style = {{  border: " 0.3px black solid ", marginTop : "20px"}} > </div>
+            <button style = {{backgroundColor : "#f7f5f0" , float :"right", border:'none' , margin:"0"}}  > <p style = {{fontSize:"20px", fontFamily:"Courier New" }} > Check Out </p> <a href = "https://www.paypal.com/sa/signin "> <img src = 'https://i.ibb.co/QQX15SC/buttons2.png' target="__blank"/> </a></button>
+            </div>
+          
+          
 
         )
     } 

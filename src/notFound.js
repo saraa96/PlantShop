@@ -1,39 +1,31 @@
 import React, { Component } from 'react'
-import {Button,Alert, } from 'react-bootstrap'
+import {Button,} from 'react-bootstrap'
 import {Link} from 'react-router-dom'
 export default class notFound extends Component {
-    state = {
-       show : true,
-        setShow : true 
-    }
-    setShow = (val)=>
-    {
-        this.setState({
-            show: val,
-            setShow : val
-        })
-    }
+
     render() {
         return (
-            <div className = 'notFound'>
-                 <Alert show={this.state.show} variant="danger">
-        <Alert.Heading>Oops !</Alert.Heading>
+            <div className = 'about'>
+               
+      
+        {/* <img className = 'notFoundimg' src = "https://image.freepik.com/free-photo/tropical-palm-leaf-pink-background_46208-267.jpg"/>  */}
+        <div className ="notFound">
+        {/* <h1>Oops !</h1> */}
         <p>
-          Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget
-          lacinia odio sem nec elit. Cras mattis consectetur purus sit amet
-          fermentum.
+         404 | This page could not be found
         </p>
         <hr />
         <div className="d-flex justify-content-end">
             <Link to ='/home'>
-          <Button onClick={() => this.setShow(false)} variant="outline-danger">
-            Close me ya'll!
+          <Button variant="outline-danger">
+            Go Back
           </Button>
           </Link>
         </div>
-      </Alert>
-
-      {/* {!this.state.show && <Button onClick={() => this.setShow(true)}>Show Alert</Button>} */}
+        </div>
+  
+  
+     
    
             </div>
         )

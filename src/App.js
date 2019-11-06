@@ -58,6 +58,7 @@ state = {
       <NavLink className="nav-link" to="/contact"> Contact us</NavLink>
       <div className = 'baag'>
       <NavLink className="nav-link" to="/cart"> <img className = "bag"src = 'https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../assets/preview/2013/png/iconmonstr-shopping-bag-4.png&r=0&g=0&b=0' /></NavLink>
+      
       </div>
   </Nav>
     </Navbar>
@@ -69,7 +70,7 @@ state = {
     <Route path='/about' component = {about} />
     <Route path="/shop" exact render={(props) => <Shop {...props} data={this.state.data} handleFaveToggle = {this.handleFaveToggle} />} />
     <Route path='/contact' component = {Contact} />
-            <Route path='/cart' exact render ={(props) =>   this.state.addtocart.length !== 0 &&  <Cart handleFaveToggle = {this.handleFaveToggle}  select = {this.state.select} addtocart = {this.state.addtocart} />}  />
+            <Route path='/cart' exact render ={(props) =>    <Cart handleFaveToggle = {this.handleFaveToggle}  select = {this.state.select} addtocart = {this.state.addtocart} />}  />
             <Route path='/*' component = {notFound}  />
            
     </Switch>

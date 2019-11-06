@@ -36,7 +36,7 @@ itemPrice : []
  let Shop = this.props.data.map(item => <Col md={4}> 
     <Card className="mb-3">
     <Card.Img className = 'top' variant="top"  src={item.image} />
- <Button className = 'middle' variant="secondary" onClick={() => this.setModalShow(true,item) }> Veiw lock </Button> 
+ <Button className = 'middle' variant="secondary" onClick={() => this.setModalShow(true,item) }> QUICK VIEW </Button> 
  <div className = "itams">
  <p style = {{float:"left"}}>{item.name}</p>
  <p style = {{float:"right"}}>{item.price}</p> 
