@@ -14,9 +14,9 @@ axios for API
 ```
 
 ### Live Site 
-``` 
-https://shopplant.herokuapp.com/home
-``` 
+ 
+https://shopplant.herokuapp.com/
+
 ### Wireframes
 Day 1 : 
 - creat ract app and start with simple desgine 
