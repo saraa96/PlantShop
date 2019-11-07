@@ -20,7 +20,7 @@ export default class Home extends Component {
             <div class="background">
     
     <br/>
-    <p className="Home">BRING NAURE <br/>TO YOUR HOME</p>
+    <p className="Home">BRING NATURE <br/>TO YOUR HOME</p>
     </div>
     < div className = 'HomeDwon' >
         <p className = "new"> What’s New </p>
