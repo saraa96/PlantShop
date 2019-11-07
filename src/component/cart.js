@@ -6,16 +6,15 @@ import React, { Component } from 'react'
 export default class cart extends Component {
     state = {
         select : this.props.select,
-        remove : this.props.addtocart
+      
     }
     Delet = (select)=> {
-        const remove = this.props.addtocart.slice()
+        const remove = this.props.addtocart
         const plantIndex = this.props.addtocart.indexOf(select);
-        console.log(this.props.addtocart);
-        this.props.addtocart.splice(plantIndex, 1) 
-          console.log(`Removing ${select.name} from cart...`)
-          this.setState({remove,
+        remove.splice(plantIndex, 1) 
+          this.setState({
         addtocart:remove});
+        console.log(this.props.addtocart);
         }
    
     render() {
@@ -45,10 +44,11 @@ export default class cart extends Component {
   )
   
         return (
-           
+     
             <div className ='cartpage'>
+                 <h3 style = {{borderBottom:" 0.3px black solid"}}> you have {this.props.addtocart.length} items in cart </h3>
             {cart}
-          
+            {console.log(this.props.addtocart)}
             < div style = {{  border: " 0.3px black solid ", marginTop : "20px"}} > </div>
             <button style = {{backgroundColor : "#f7f5f0" , float :"right", border:'none' , margin:"0"}}  > <p style = {{fontSize:"20px", fontFamily:"Courier New" }} > Check Out </p> <a href = "https://www.paypal.com/sa/signin "> <img src = 'https://i.ibb.co/QQX15SC/buttons2.png' target="__blank"/> </a></button>
             </div>

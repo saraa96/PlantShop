@@ -10,6 +10,7 @@ import {
   Switch,
   Route, NavLink
 } from 'react-router-dom';
+
 import notFound from './notFound'
 import Shop from './component/Shop'
 import PDB from './PDB'
@@ -17,7 +18,8 @@ export default class App extends Component {
 state = {
       data : PDB.plants,
       addtocart : [],
-      select:null
+      select:null,
+   
     }
 
     handleFaveToggle =(select) =>{
@@ -29,14 +31,16 @@ state = {
           select : select
          }) 
     
+        
     }
   
+ 
+
 
   render() {
     
     return (
 <div className = 'body'> 
-
 <Navbar className="justify-content-md-center" fixed={'top'} style = {{backgroundColor:"#f7f5f0" ,opacity:"1" }}>
         <Navbar.Brand href="/home" style ={{opacity:"1"}}>
           <img
@@ -77,7 +81,9 @@ state = {
     </BrowserRouter>
    
     <footer className ='footer'>
+
    Sara khaled © 2019
+ 
     </footer>
  
 </div>

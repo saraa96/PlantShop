@@ -1,9 +1,26 @@
 import {Map, Marker, GoogleApiWrapper,google} from 'google-maps-react';
 import { Form, Row, Col ,Button} from 'react-bootstrap'
+import axios from "axios"
 import React, { Component } from 'react'
 
 export class Contact extends Component {
+state={
+	time:''
+}
+componentDidMount(){
+    
+	axios({
+	  method: 'GET',
+	  url: "http://worldtimeapi.org/api/timezone/Asia/Riyadh"
+	}).then(response => {
+	  console.log(response.data.datetime) // take a look at what you get back!
+	  this.setState({
+		time:response.data.datetime
+	  })
+	})
 
+  
+}
 	render() {
 		console.log(this.props)
 		return (
@@ -35,7 +52,7 @@ export class Contact extends Component {
 									<Button className = 'btnsub'variant="outline-secondary" type="submit">
  Submit
   </Button>
- 
+  <p style={{marginTop :"20px"}}> local time :  {this.state.time} </p>
 							<Map  google ={this.props.google}
 								initialCenter={{
 									lat: 21.5085,
@@ -43,7 +60,7 @@ export class Contact extends Component {
 								}}
 						style={{width: '100%', height: '100%', position: 'relative'}}
     className={'map'}
-    zoom={8}>
+    zoom={16}>
   <Marker
     name={"Sara's plants"}
 	position={{lat: 21.5085, lng: 39.1741}} />
