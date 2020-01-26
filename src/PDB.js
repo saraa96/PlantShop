@@ -5,7 +5,7 @@ const PDB = {
         "id": 1,
           "name": "Calathea",
           "fullname": "Calathea Medallion",
-          "image": "https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_calathea-medallion_variant_medium_prospect_mint_768x.jpg?v=1579100930",
+          "image": "https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_calathea-medallion_variant_medium_prospect_cream_90a03908-41ad-4a2a-8480-00722a3658d2_768x.jpg?v=1579100930",
           "backdimage": "https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_calathea-medallion_gallery_medium_all_all_01_2230x.progressive.jpg?v=1572031973",
           "desc": "The Calathea Medallion gets its name from the unique roundness of its leaves. They have a brillant green pattern on top, and are a deep burgundy underneath.",
           "price": "$"+59
