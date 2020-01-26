@@ -61,7 +61,7 @@ state = {
       <NavLink className="nav-link"to="/shop"> Shop</NavLink>
       <NavLink className="nav-link" to="/contact"> Contact us</NavLink>
       <div className = 'baag'>
-      <NavLink className="nav-link" to="/cart"> <img className = "bag"src = 'https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../assets/preview/2013/png/iconmonstr-shopping-bag-4.png&r=0&g=0&b=0' /></NavLink>
+      <NavLink className="nav-link" to="/cart"> <img className = "bag" src = 'https://iconmonstr.com/wp-content/g/gd/makefg.php?i=../assets/preview/2013/png/iconmonstr-shopping-bag-4.png&r=0&g=0&b=0' /></NavLink>
       
       </div>
   </Nav>

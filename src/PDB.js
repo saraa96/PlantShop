@@ -5,7 +5,7 @@ const PDB = {
         "id": 1,
           "name": "Calathea",
           "fullname": "Calathea Medallion",
-          "image": "https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_calathea-medallion_variant_medium_prospect_cream_988936e2-fafd-4ec2-9d76-c8de025ea6c6_2230x.progressive.jpg?v=1572031973",
+          "image": "https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_calathea-medallion_variant_medium_prospect_mint_768x.jpg?v=1579100930",
           "backdimage": "https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_calathea-medallion_gallery_medium_all_all_01_2230x.progressive.jpg?v=1572031973",
           "desc": "The Calathea Medallion gets its name from the unique roundness of its leaves. They have a brillant green pattern on top, and are a deep burgundy underneath.",
           "price": "$"+59
@@ -46,8 +46,8 @@ const PDB = {
         "id": 6,
           "name": "Monstera",
           "fullname": "Monstera Deliciosa",
-          "image": "https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_monstera-deliciosa_variant_medium_hyde_cream_720x.progressive.jpg?v=1572030575",
-          "backdimage": "https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_monstera-deliciosa_gallery_medium_all_all_01_720x.progressive.jpg?v=1572030593",
+          "image": "https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_monstera_variant_small_hyde_cream_768x.jpg?v=1576785440",
+          "backdimage": "https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_monstera_gallery_small_all_all_01_768x.jpg?v=1576785440",
           "desc": "Nicknamed the swiss cheese plant, the Monstera deliciosa is famous for its quirky natural leaf holes. A vibrant green beauty, it can give any interior space instant jungle vibes.",
           "price": "$"+61
       },    {
@@ -62,7 +62,7 @@ const PDB = {
         "id": 8,
           "name": "Philodendron",
           "fullname": "Philodendron Green",
-          "image": "https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_philodendron-green_variant_small_hyde_cream_71a60228-1f53-4f30-ab6a-e6be1d7593ea_720x.progressive.jpg?v=1572625511",
+          "image": "https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_philodendron-green_variant_small_grant_pale-grey_14279526-d0f3-423b-9be0-6674e0daa8ad_1440x.jpg?v=1576170482",
           "backdimage": "https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_philodendon-green_gallery_small_all_all_03_720x.progressive.jpg?v=1572625511",
           "desc": "The Philodendron Green is characterized by its heart-shaped trailing leaves. It is a great choice for beginners.",
           "price": "$"+37
@@ -96,7 +96,7 @@ const PDB = {
         "id": 12,
           "name": "Rubber Tree",
           "fullname": "Rubber Tree Plant",
-          "image": "https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_rubber-tree_variant_small_august_blush_720x.progressive.jpg?v=1571932197",
+          "image": "https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_rubber-tree_variant_medium_grant_cream_768x.jpg%3Fv=1578935840",
           "backdimage": "https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_rubber-tree_gallery_small_all_all_02_720x.progressive.jpg?v=1572216755",
           "desc": "The Rubber Tree is a characterized by its glossy burgundy leaves. It is a dramatic edition to any space.",
           "price": "$"+29
@@ -164,7 +164,7 @@ const PDB = {
         "id": 20,
           "name": "Marble",
           "fullname": "Peperomia Marble",
-          "image": "https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_peperomia-obtusfolia-marble_variant_small_hyde_cream_2230x.progressive.jpg?v=1572031289",
+          "image": "https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_peperomia-marble-marble_variant_small_hyde_black_768x.jpg?v=1578690060",
           "backdimage": "https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_peperomia-marble_gallery_small_all_all_06_2230x.progressive.jpg?v=1572219930",
           "desc": "The Peperomia Marble is characterized by its thick spoon-shaped variegated leaves.",
           "price": "$"+36

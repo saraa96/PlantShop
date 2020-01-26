@@ -52,7 +52,7 @@ componentDidMount(){
 									<Button className = 'btnsub'variant="outline-secondary" type="submit">
  Submit
   </Button>
-  <p style={{marginTop :"20px"}}> {this.state.time} </p>
+  <p style={{marginTop :"20px"}}> local Time :  {this.state.time} </p>
 							<Map  google ={this.props.google}
 								initialCenter={{
 									lat: 21.5085,

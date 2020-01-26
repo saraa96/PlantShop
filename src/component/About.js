@@ -12,6 +12,7 @@ export default class About extends Component {
              terrariums, and rare and unusual plants. 
              Our mission is to share our passion 
              for plants with people! </div>
+           
             </div>
         )
     }
