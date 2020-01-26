@@ -96,7 +96,7 @@ const PDB = {
         "id": 12,
           "name": "Rubber Tree",
           "fullname": "Rubber Tree Plant",
-          "image": "https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_rubber-tree_variant_medium_grant_cream_768x.jpg?v=1578935840",
+          "image": "https:https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_rubber-tree_variant_medium_grant_black_768x.jpg?v=1578935840",
           "backdimage": "https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_rubber-tree_gallery_small_all_all_02_720x.progressive.jpg?v=1572216755",
           "desc": "The Rubber Tree is a characterized by its glossy burgundy leaves. It is a dramatic edition to any space.",
           "price": "$"+29
